@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grænser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container"> 
+        <navbar-wrapper class="navbar-wrapper">
+          <!--Navbar component-->
+          <header class="navbar-container">
+            <header data-thq="thq-navbar" class="navbar-navbar-interactive">
+              <div data-thq="thq-navbar-nav" class="navbar-desktop-menu">
+                <nav class="navbar-links1">
+                  <span class="thq-body-small thq-link"><span><a href="/Home/index.html">Hjem</a></span></span>
+                  <span class="thq-body-small thq-link">
+                    <span><a href="/SettingBoundaries/setting-boundaries.html">Sådan sætter du grænser</a></span>
+                  </span>
+                  <span class="thq-body-small thq-link">
+                    <span><a href="/TypesofBoundaries/types-of-boundaries.html">Typer af grænser</a></span>
+                  </span>
+                  <span class="thq-body-small thq-link">
+                    <span><a href="/WhatareBoundaries/what-are-boundaries.html">Hvad er personlige grænser?</a></span>
+                  </span>
+                </nav>
+              </div>
+              <div data-thq="thq-burger-menu" class="navbar-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="navbar-icon1">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-thq="thq-mobile-menu" class="navbar-mobile-menu">
+                <div class="navbar-nav">
+                  <div class="navbar-top">
+                    <div data-thq="thq-close-menu" class="navbar-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="navbar-icon3">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="navbar-links2">
+                    <span class="thq-body-small thq-link" style="text-decoration: underline;"><span><a href="/Home/index.html">Hjem</a></span></span>
+                    <span class="thq-body-small thq-link">
+                      <span><a href="/SettingBoundaries/setting-boundaries.html">Sådan sætter du grænser</a></span>
+                    </span>
+                    <span class="thq-body-small thq-link">
+                      <span><a href="/TypesofBoundaries/types-of-boundaries.html">Typer af grænser</a></span>
+                    </span>
+                    <span class="thq-body-small thq-link">
+                      <span><a href="/WhatareBoundaries/what-are-boundaries.html">Hvad er personlige grænser?</a></span>
+                    </span>
+                  </nav>
+                </div>
+              </div>
+            </header>
+          </header>
+        </navbar-wrapper>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+          }
+         .hero-section {
+            padding: 60px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow:
+  2.5px 2.8px 18.7px -12px rgba(43, 72, 238, 0.0035),
+  5px 5.7px 31.9px -12px rgba(43, 72, 238, 0.0047),
+  8.1px 9.2px 40.2px -12px rgba(43, 72, 238, 0.056),
+  13.1px 15px 47px -12px rgba(43, 72, 238, 0.073),
+  36px 41px 80px -12px rgba(43, 72, 238, 0.11)
+;
+          }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;      
+          }
+
+          .hero-section h1 {
+            font-size: 2.5em;
+            margin: 0 0 20px;
+          }
+          .hero-section p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto 30px;
+          }
+          .section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+          }
+        </style>
+        
+        <div class="hero-section">
+          <div class="hero-content">
+          <h1>Projekt Uge: Personlige Grænser</h1>
+          <p>Forstå hvor vigtigt det er at sætte og respektere personlige grænser.</p>
+          <button class="thq-button-filled thq-button-animated steps-button">
+          <span class="thq-body-small"><a href="/SettingBoundaries/setting-boundaries.html">Læs mere</a></span>
+       </button>
+      </div>
+        </div>  
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <footer class="footer-footer1 thq-section-padding">
+            <div class="footer-max-width thq-section-max-width">
+              <div class="footer-content">
+             </div>
+           <div class="footer-links">
+             <div class="footer-column1">
+              <div class="footer-footer-links1">
+              <span>
+                  Projekt Uge: Personlige Grænse: 2024
+              </span>
+          </footer>
+          </footer>
+        </footer-wrapper>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
+
+
+
